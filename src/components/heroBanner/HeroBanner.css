@@ -1,0 +1,95 @@
+/* Hero Section Styling */
+.hero-container {
+  background-color: #f9b800;
+  border-radius: 50px;
+  position: relative;
+  z-index: 0;
+}
+
+/* Hero Image */
+.hero-img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hero Title */
+.hero-title {
+  font-weight: bold;
+  color: var(--text-black);
+  font-size: 40px;
+}
+.row-style {
+  padding: 60px 100px;
+}
+/* Highlighted Text */
+.hero-highlight {
+  color: var(--text-black);
+  text-decoration: underline;
+}
+
+/* Hero Text */
+.hero-text {
+  color: var(--text-black);
+  font-size: 16px;
+}
+
+/* CTA Button */
+.hero-btn {
+  background-color: var(--text-black);
+  color: var(--text-white);
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  width: 100%;
+  max-width: 250px;
+}
+
+/* Arrow Animation */
+.hero-arrow {
+  transition: transform 0.4s ease-in-out;
+}
+
+.hero-btn:hover .hero-arrow {
+  transform: rotate(90deg);
+}
+.hero-btn::after {
+  content: "";
+  top: 5px !important;
+  position: absolute;
+  left: 5px !important;
+  width: 100%;
+  height: 100%;
+  background-color: var(--text-white) !important;
+  border-radius: 30px;
+  z-index: -1;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+.hero-btn:hover::after {
+  opacity: 1; 
+}
+/* Responsive: Mobile View (Image on Top) */
+@media (max-width: 768px) {
+  .hero-container {
+    text-align: center;
+  }
+  .row-style {
+    padding: 28px 10px;
+  }
+  .hero-btn {
+    font-weight: lighter;
+    max-width: 300px;
+    padding: 15px 25px;
+  }
+  .hero-title {
+    font-size: 30px;
+  }
+}

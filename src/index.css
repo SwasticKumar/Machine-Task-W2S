@@ -1,0 +1,38 @@
+body {
+  background-color: #fff9eb !important;
+}
+:root {
+  --bg-yellow: #f9b800;
+  /* --bg-lightyellow: #fffaeb; */
+  --bg-gray: #ecf0f9;
+  --text-black: #262626;
+  --text-white: #fff;
+  --text-gray: #576b81;
+}
+#banner {
+  background-attachment: scroll;
+  background-image: url("/src/assets/Vector.png");
+  background-position: left top;
+  background-repeat: repeat-y;
+  background-size: 40%;
+  min-height: 65vh;
+  overflow-x: hidden;
+}
+.typing-font {
+  font-size: 42px !important;
+}
+.typing-effect {
+  display: inline-block;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+  #banner {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .typing-font {
+    font-size: 29px !important;
+  }
+}
