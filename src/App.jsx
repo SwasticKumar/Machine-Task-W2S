@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/navbar/Navbar";
-import HeroSection from "./components/heroSection/HeroSection";
+import Header from "./components/header/Header";
 import HeroBanner from "./components/heroBanner/HeroBanner";
 import Testimonials from "./components/testimonials/Testimonials";
 import Footer from "./components/footer/Footer";
@@ -10,10 +10,10 @@ const App = () => {
     <div>
       <Navbar />
       <div id="banner">
-        <HeroSection />
+        <Header />
         <HeroBanner />
-        <Testimonials/>
-        <Footer/>
+        <Testimonials />
+        <Footer />
       </div>
     </div>
   );

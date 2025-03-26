@@ -6,7 +6,7 @@ import { FaRegCopyright } from "react-icons/fa6";
 const Footer = () => {
   const date = new Date();
   return (
-    <section className="m-3 my-5">
+    <footer className="m-3 my-5">
       <div className="container footer-container">
         <div className="row align-items-center row-style-footer" >
           <div className="col-12 col-md-6 text-left">
@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </section>
+    </footer>
   );
 };
 

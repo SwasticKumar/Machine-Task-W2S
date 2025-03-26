@@ -8,9 +8,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg ">
       <div className="container border-bottom pb-2">
         {/* Left Side - Logo */}
-        {/* <a className=" fw-bold" href="#"> */}
         <img src={logo} className="navbar-brand nav-logo" alt="logo"/>
-        {/* </a> */}
 
         {/* Right Side - Flag Selector */}
         <div className="d-flex align-items-center">
