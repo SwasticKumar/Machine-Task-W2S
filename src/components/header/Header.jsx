@@ -37,8 +37,8 @@ const Header = () => {
             <FaRegCheckCircle /> Mauris Fermentum Praesent
           </li>
         </ul>
-        <div className="d-flex justify-content-center">
-          <button className="cta-btn">
+        <div className="d-flex justify-content-center bgBtn-color">
+          <button className="cta-btn ">
             <span>Lorem Ipsum</span>
             <FaArrowRightLong className="arrow-icon" />
           </button>

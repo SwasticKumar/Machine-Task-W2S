@@ -46,6 +46,7 @@
 }
 .cta-btn:hover {
   border: 1px solid var(--text-black);
+  box-shadow: 8px 8px;
 }
 .arrow-icon {
   transition: transform 0.4s ease-in-out;
@@ -53,22 +54,10 @@
 .cta-btn:hover .arrow-icon {
   transform: rotate(90deg) !important;
 }
-.cta-btn::after {
-  content: "";
-  top: 5px !important;
-  position: absolute;
-  left: 5px !important;
-  width: 100%;
-  height: 100%;
-  background-color: var(--text-black);
-  border-radius: 30px;
-  z-index: -1;
-  opacity: 0;
-  transition: 0.3s ease-in-out;
-}
-.cta-btn:hover::after {
-  opacity: 1;
-}
+
+
+
+
 @media (max-width: 768px) {
   .feature-list li {
     font-size: 15px;
@@ -82,4 +71,8 @@
     max-width: 300px;
     padding: 15px 25px;
   }
+  /* .bgBtn-color{
+  background-color: var(--bg-lightyellow);
+ 
+} */
 }

@@ -28,7 +28,7 @@ const HeroBanner = () => {
             </p>
 
             {/* CTA Button */}
-            <div className="d-flex align-items-center justify-content-between">
+            <div className="d-flex align-items-center Heroflex-btn">
               <button className="hero-btn">
                 <span>Lorem Ipsum</span>
                 <FaArrowRight className="hero-arrow" />

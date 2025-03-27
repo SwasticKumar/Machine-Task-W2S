@@ -16,7 +16,7 @@ const Footer = () => {
           </div>
 
           <div className="col-12 col-md-6 ">
-            <div className="d-flex align-items-center justify-content-end">
+            <div className="d-flex align-items-center foo-display">
               <button className="footer-btn">
                 <span>Lorem Ipsum</span>
                 <FaArrowRight className="footer-arrow" />

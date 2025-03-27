@@ -1,9 +1,9 @@
 body {
-  background-color: #fff9eb !important;
+  background-color: var(--bg-lightyellow) !important;
 }
 :root {
   --bg-yellow: #f9b800;
-  /* --bg-lightyellow: #fffaeb; */
+  --bg-lightyellow: #fffaeb;
   --bg-gray: #ecf0f9;
   --text-black: #262626;
   --text-white: #fff;
@@ -17,6 +17,7 @@ body {
   background-size: 40%;
   min-height: 65vh;
   overflow-x: hidden;
+  z-index: -99;
 }
 .typing-font {
   font-size: 42px !important;
